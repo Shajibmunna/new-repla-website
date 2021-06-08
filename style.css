@@ -18,7 +18,7 @@ h1{
 }
 
 .half-width{
-    width:42%;
+    width:40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
@@ -73,6 +73,10 @@ h1{
 .third-section{
     height: 80vh;
     padding: 0 2%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-bottom: 80px;
 }
 
 .third-section h2{
@@ -84,6 +88,23 @@ h1{
     height: 350px;
     box-shadow: 0px 0px 20px rgba(204, 19, 198, 0.397);
     border-radius: 10px;
+    background-color: #fff;
 }
 
 
+#full-stack{
+    border-left:7px solid;
+    border-image:linear-gradient(45deg, rgb(255, 0, 85), #FF418C) ;
+    border-image-slice: 1;
+}
+
+#baby{
+    border-left:7px solid;
+    border-image:linear-gradient(180deg, rgb(0, 38, 255), #4deaff) ;
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 20px;
+}
