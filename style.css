@@ -1,0 +1,89 @@
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+}
+
+section{
+    padding-top: 70px;
+    height:100vh;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.orange-highlight{
+    color:#FF418C;
+}
+
+.half-width{
+    width:42%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+
+.half-width img{
+    width: 100%;
+}
+
+.linkbtn{
+    padding: 10px 40px;
+    font-size:16px;
+    text-transform: uppercase;
+    font-family: poppins;
+    font-weight: 800;
+    border:none;
+    border-radius: 8px;
+    background: linear-gradient(80deg, #FF418C, rgb(255, 0, 85));
+    color: white;
+    cursor: pointer;
+}
+
+.linkbtn:hover{
+    background:linear-gradient(80deg, rgb(255, 0, 85), #FF418C)
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.second-banner{
+    background-image: url(images/dream-bg.png);
+    background-size: 10%;
+    background-position: 0% 90%;
+    background-repeat: no-repeat;
+}
+
+
+
+.secondsec h1{
+    color: #FF418C;
+}
+
+.third-sec-title{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.third-section{
+    height: 80vh;
+    padding: 0 2%;
+}
+
+.third-section h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.singe-experience{
+    height: 350px;
+    box-shadow: 0px 0px 20px rgba(204, 19, 198, 0.397);
+    border-radius: 10px;
+}
+
+
